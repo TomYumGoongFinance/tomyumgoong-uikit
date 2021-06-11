@@ -119,19 +119,23 @@ export const socials = [
     icon: "TelegramIcon",
     items: [
       {
+        label: "Announcement",
+        href: "https://t.me/tomyumgoongfinance",
+      },
+      {
         label: "English",
         href: "https://t.me/tomyungoong_finance",
       },
       {
         label: "ไทย",
-        href: "https://t.me/tomyungoong_finance_thailand",
+        href: "https://t.me/tomyumgoong_thailand",
       },
     ],
   },
   {
     label: "Twitter",
     icon: "TwitterIcon",
-    href: "https://twitter.com/tomyungoong_finance",
+    href: "https://twitter.com/TomyumgoongF",
   },
 ];
 
