@@ -89,28 +89,28 @@ export const links = [
   //     },
   //   ],
   // },
-  // {
-  //   label: "More",
-  //   icon: "MoreIcon",
-  //   items: [
-  //     // {
-  //     //   label: "Voting",
-  //     //   href: "https://voting.pancakeswap.finance",
-  //     // },
-  //     {
-  //       label: "Github",
-  //       href: "https://github.com/goosedefi/",
-  //     },
-  //     {
-  //       label: "Docs",
-  //       href: "https://goosedefi.gitbook.io/goose-finance/",
-  //     },
-  //     {
-  //       label: "Blog",
-  //       href: "https://goosefinance.medium.com/",
-  //     },
-  //   ],
-  // },
+  {
+    label: "More",
+    icon: "MoreIcon",
+    items: [
+      {
+        label: "Roadmap",
+        href: "https://docs.tomyumgoong.finance/tomyumgoong/roadmap",
+      },
+      {
+        label: "Docs",
+        href: "http://docs.tomyumgoong.finance",
+      },
+      {
+        label: "Github",
+        href: "https://github.com/TomYumGoongFinance",
+      },
+      // {
+      //   label: "Blog",
+      //   href: "https://goosefinance.medium.com/",
+      // },
+    ],
+  },
 ];
 
 export const socials = [
