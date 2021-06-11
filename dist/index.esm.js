@@ -1758,7 +1758,7 @@ var Modal = function (_a) {
 };
 var templateObject_1$u, templateObject_2$9, templateObject_3$5;
 
-var Overlay = styled.div.attrs({ role: "presentation" })(templateObject_1$v || (templateObject_1$v = __makeTemplateObject(["\n  position: fixed;\n  top: 0px;\n  left: 0px;\n  width: 100%;\n  height: 100%;\n  background-color: #452a7a;\n  transition: opacity 0.4s;\n  opacity: ", ";\n  z-index: ", ";\n  pointer-events: ", ";\n"], ["\n  position: fixed;\n  top: 0px;\n  left: 0px;\n  width: 100%;\n  height: 100%;\n  background-color: #452a7a;\n  transition: opacity 0.4s;\n  opacity: ", ";\n  z-index: ", ";\n  pointer-events: ", ";\n"])), function (_a) {
+var Overlay = styled.div.attrs({ role: "presentation" })(templateObject_1$v || (templateObject_1$v = __makeTemplateObject(["\n  position: fixed;\n  top: 0px;\n  left: 0px;\n  width: 100%;\n  height: 100%;\n  background-color: #000;\n  transition: opacity 0.4s;\n  opacity: ", ";\n  z-index: ", ";\n  pointer-events: ", ";\n"], ["\n  position: fixed;\n  top: 0px;\n  left: 0px;\n  width: 100%;\n  height: 100%;\n  background-color: #000;\n  transition: opacity 0.4s;\n  opacity: ", ";\n  z-index: ", ";\n  pointer-events: ", ";\n"])), function (_a) {
     var show = _a.show;
     return (show ? 0.6 : 0);
 }, function (_a) {
@@ -1886,8 +1886,10 @@ var Icon$Q = function (props) {
 };
 
 var Icon$R = function (props) {
-    return (React.createElement(Svg, __assign({ viewBox: "0 0 24 24" }, props),
-        React.createElement("path", { d: "M6 10C4.9 10 4 10.9 4 12C4 13.1 4.9 14 6 14C7.1 14 8 13.1 8 12C8 10.9 7.1 10 6 10ZM18 10C16.9 10 16 10.9 16 12C16 13.1 16.9 14 18 14C19.1 14 20 13.1 20 12C20 10.9 19.1 10 18 10ZM12 10C10.9 10 10 10.9 10 12C10 13.1 10.9 14 12 14C13.1 14 14 13.1 14 12C14 10.9 13.1 10 12 10Z" })));
+    return (React.createElement(Svg, __assign({ viewBox: "0 0 512 512" }, props),
+        React.createElement("path", { d: "M64,192c-35.285,0-64,28.715-64,64s28.715,64,64,64s64-28.715,64-64S99.285,192,64,192z M64,298.667\n\t\t\tc-23.531,0-42.667-19.136-42.667-42.667S40.469,213.333,64,213.333c23.531,0,42.667,19.136,42.667,42.667\n\t\t\tS87.531,298.667,64,298.667z" }),
+        React.createElement("path", { d: "M256,192c-35.285,0-64,28.715-64,64s28.715,64,64,64s64-28.715,64-64S291.285,192,256,192z M256,298.667\n\t\t\tc-23.531,0-42.667-19.136-42.667-42.667s19.136-42.667,42.667-42.667s42.667,19.136,42.667,42.667S279.531,298.667,256,298.667z" }),
+        React.createElement("path", { d: "M448,192c-35.285,0-64,28.715-64,64s28.715,64,64,64c35.285,0,64-28.715,64-64S483.285,192,448,192z M448,298.667\n\t\t\tc-23.531,0-42.667-19.136-42.667-42.667s19.136-42.667,42.667-42.667c23.531,0,42.667,19.136,42.667,42.667\n\t\t\tS471.531,298.667,448,298.667z" })));
 };
 
 var Icon$S = function (props) {
@@ -1925,9 +1927,9 @@ var Icon$W = function (props) {
 };
 
 var Icon$X = function (props) {
-    return (React.createElement(Svg, __assign({ viewBox: "0 0 512.004 512.004" }, props),
-        React.createElement("path", { d: "M475.211,79.811L386.43,4.996c-9.015-7.581-22.47-6.397-30.051,2.619s-6.397,22.47,2.619,30.051\n\tl44.016,37.408H192.159C125.324,75.148,71.158,129.314,71.083,196.15v38.281c0,11.771,9.551,21.322,21.322,21.322\n\ts21.322-9.551,21.322-21.322v-38.655c0.075-43.293,35.138-78.357,78.432-78.432h210.98l-44.016,37.408\n\tc-9.015,7.581-10.2,21.036-2.619,30.051c7.581,9.015,21.036,10.2,30.051,2.619l88.781-74.816c9.015-7.569,10.2-21.023,2.631-30.038\n\tc-0.798-0.948-1.683-1.833-2.631-2.631L475.211,79.811z" }),
-        React.createElement("path", { d: "M418.975,255.877c-11.771,0-21.322,9.551-21.322,21.322v38.655\n\tc-0.075,43.293-35.138,78.357-78.432,78.432h-210.98l44.016-37.408c10.312-5.698,14.053-18.666,8.354-28.979\n\tc-5.698-10.312-18.666-14.053-28.979-8.354c-2.369,1.309-4.476,3.055-6.185,5.162l-88.781,74.816\n\tc-9.015,7.569-10.2,21.023-2.631,30.038c0.798,0.948,1.683,1.833,2.631,2.631l88.781,74.815c9.015,7.581,22.47,6.397,30.051-2.619\n\ts6.397-22.47-2.619-30.051l-44.016-37.408h210.356c66.835-0.075,121.002-54.241,121.076-121.076V277.2\n\tC440.298,265.416,430.746,255.877,418.975,255.877z" })));
+    return (React.createElement(Svg, __assign({ viewBox: "-5 0 459 459.648" }, props),
+        React.createElement("path", { d: "m416.324219 293.824219c0 26.507812-21.492188 48-48 48h-313.375l63.199219-63.199219-22.625-22.625-90.511719 90.511719c-6.246094 6.25-6.246094 16.375 0 22.625l90.511719 90.511719 22.625-22.625-63.199219-63.199219h313.375c44.160156-.054688 79.945312-35.839844 80-80v-64h-32zm0 0" }),
+        React.createElement("path", { d: "m32.324219 165.824219c0-26.511719 21.488281-48 48-48h313.375l-63.199219 63.199219 22.625 22.625 90.511719-90.511719c6.246093-6.25 6.246093-16.375 0-22.625l-90.511719-90.511719-22.625 22.625 63.199219 63.199219h-313.375c-44.160157.050781-79.949219 35.839843-80 80v64h32zm0 0" })));
 };
 
 var Icon$Y = function (props) {
