@@ -124,7 +124,7 @@ export const socials = [
       },
       {
         label: "English",
-        href: "https://t.me/tomyungoong_finance",
+        href: "https://t.me/tomyumgoong_finance",
       },
       {
         label: "ไทย",
