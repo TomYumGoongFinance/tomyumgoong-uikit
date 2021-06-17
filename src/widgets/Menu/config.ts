@@ -90,6 +90,11 @@ export const links = [
   //   ],
   // },
   {
+    label: "Check LP",
+    icon: "Glasses",
+    href: "https://howmuchismylp.com/",
+  },
+  {
     label: "More",
     icon: "MoreIcon",
     items: [
