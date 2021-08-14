@@ -7,6 +7,7 @@ import Accordion from "./Accordion";
 import { MenuEntry, LinkLabel } from "./MenuEntry";
 import MenuLink from "./MenuLink";
 import { PanelProps, PushedProps } from "./types";
+import Flex from "../../components/Flex/Flex";
 
 interface Props extends PanelProps, PushedProps {
   isMobile: boolean;
@@ -20,6 +21,10 @@ const Container = styled.div`
   overflow-y: auto;
   overflow-x: hidden;
   height: 100%;
+`;
+
+const CertifiedBadge = styled.a`
+  width: 80%;
 `;
 
 const PanelBody: React.FC<Props> = ({ isPushed, pushNav, isMobile, links }) => {
@@ -64,6 +69,11 @@ const PanelBody: React.FC<Props> = ({ isPushed, pushNav, isMobile, links }) => {
           </MenuEntry>
         );
       })}
+       <Flex justifyContent="center" mt="16px">
+        <CertifiedBadge href="https://rugdoc.io/project/tomyumgoong-finance">
+          <img src="/images/rugdoc-review-badge.png" alt="Rugdoc" />
+        </CertifiedBadge>
+      </Flex>
     </Container>
   );
 };
